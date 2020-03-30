@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 import scrapy
 import pandas as pd
+import requests
 
 
 class TianyanchaSpider(scrapy.Spider):
@@ -22,3 +23,9 @@ class TianyanchaSpider(scrapy.Spider):
         movie_list = response.xpath("//div[@class='article']//ol[@class='grid_view']/li")
 
         pass
+
+
+
+
+
+
